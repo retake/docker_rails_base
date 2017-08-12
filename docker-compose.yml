@@ -1,0 +1,8 @@
+version: '2'
+services:
+  myapp:
+    build: .
+    volumes:
+      - '.:/home/app/myapp'
+    ports:
+      - '3000:3000'
